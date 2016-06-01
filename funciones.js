@@ -1,8 +1,9 @@
 function divisionTryCatch(dividendo, divisor, anteExito, anteFalla) {
-	if (divisor == 0)
+	if (divisor === 0) {
 		anteFalla("el divisor debe ser distinto de cero");
-	else 
+	} else {
 		anteExito(dividendo / divisor);
+	}
 }
 
 function dividir() {
